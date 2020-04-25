@@ -1,0 +1,114 @@
+
+
+
+#upper_half{
+    color:black;
+    font-family: 'Rock Salt', cursive;
+    margin:auto;
+    background-color:orange;
+    text-align: center;
+   width:100%;
+   height:500px;
+   display: inline-block;
+    
+}
+
+
+#mid_half{
+    color:white;
+    background-color:blue;
+    font-family: 'Bad Script', cursive;
+    border:white 2px solid;
+
+    height:200px;
+    display:inline-block;
+}
+
+#bottom_half{
+    color: black;
+    font-family: 'Rock Salt', cursive;
+    padding-top: 40px;
+    text-align: center;
+    background-color:orange;
+    height:500px;
+    width:100%;
+    display:inline-block;
+}
+
+.imagebox{
+    
+    display:inline-block;
+    width:30%;
+    height:250px;
+    border:black 2px solid;
+
+}
+
+
+
+.imagebox > img{
+    
+    width:100%;
+    height:100%;
+}
+
+ul{
+    
+     /* display:inline-block; */
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height:70px;
+  background-color: #000;
+}
+ ul li{
+     display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* footer{
+    position: absolute;
+  top: 95%;
+ 
+  width: 200px;
+  height: 100px;
+} */
+/*Page 1 ^ -------------------------------------- */
+body{
+    background-color: black;
+}
+
+.topBox{
+    text-align: center;
+    border:black solid 2px;
+    width:100%;
+    height:100px;
+}
+.box{
+    vertical-align: top;
+    margin: 30px;
+    /* text-align: center; */
+    border:black solid 2px;
+    width:45%;
+    height:700px;
+    display:inline-block;
+    background-color: blue;
+    color: white;
+
+}
+
+#tech{
+    background-color: orange;
+}
+.window{
+    height:350px;
+
+}
+
+h3 + p{
+    font-size: 1.2em;
+}
